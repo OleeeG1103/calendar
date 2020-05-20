@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>Calendar</title>
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+
+<div class="wrapper">
+	<div class="calendar">
+		<div class="month-nav">
+			<span class="month">JANUARY 2020</span>
+			<span class="nav">
+				<a href="#" class="nav__month--prev"><img src="img/prev.svg" alt="prev"></a>
+				<span class="nav__today">Today</span>
+				<a href="#" class="nav__month--next"><img src="img/next.svg" alt="next"></a>
+			</span>
+		</div>
+
+		<div class="main">
+			<div class="weekdays">
+				<div class="weekdays__item"><span>Sun</span></div>
+				<div class="weekdays__item"><span>Mon</span></div>
+				<div class="weekdays__item"><span>Tue</span></div>
+				<div class="weekdays__item"><span>Wed</span></div>
+				<div class="weekdays__item"><span>Thu</span></div>
+				<div class="weekdays__item"><span>Fri</span></div>
+				<div class="weekdays__item"><span>Sat</span></div>
+			</div>
+			<div class="days">
+			<div class="days__item days__item--off"><span class="days__item--number">29</span></div>
+			<div class="days__item days__item--off"><span class="days__item--number">30</span></div>
+			<div class="days__item days__item--off"><span class="days__item--number">31</span></div>
+			<div class="days__item days__item--event">
+				<span class="days__item--number event-number">1</span>
+				<span class="event-text">00:00 New Year</span>
+			</div>
+			<div class="days__item"><span class="days__item--number">2</span></div>
+			<div class="days__item"><span class="days__item--number">3</span></div>
+			<div class="days__item"><span class="days__item--number">4</span></div>
+			<div class="days__item"><span class="days__item--number">5</span></div>
+			<div class="days__item"><span class="days__item--number">6</span></div>
+			<div class="days__item"><span class="days__item--number">7</span></div>
+			<div class="days__item"><span class="days__item--number">8</span></div>
+			<div class="days__item"><span class="days__item--number">9</span></div>
+			<div class="days__item"><span class="days__item--number">10</span></div>
+			<div class="days__item"><span class="days__item--number">11</span></div>
+			<div class="days__item"><span class="days__item--number">12</span></div>
+			<div class="days__item"><span class="days__item--number">13</span></div>
+			<div class="days__item"><span class="days__item--number">14</span></div>
+			<div class="days__item days__item--event days__item--event-open">
+				<span class="days__item--number event-number event-number-open">15</span>
+				<span class="event-text">14:30 Daily Call</span>
+
+				<div class="window-event-open">
+					<input class="window-event-open__name-event" type="text" name="event-window-text">
+					<input class="window-event-open__date-event" type="text" name="event-window-text" value="15.01.2020">
+					<textarea class="window-event-open__text-event">Today is daily call about new tasks</textarea>
+					<button class="window-event-open__btn-delite-event">Удалить</button>
+				</div>
+			</div>
+			<div class="days__item"><span class="days__item--number">16</span></div>
+			<div class="days__item"><span class="days__item--number">17</span></div>
+			<div class="days__item"><span class="days__item--number">18</span></div>
+			<div class="days__item"><span class="days__item--number">19</span></div>
+			<div class="days__item"><span class="days__item--number">20</span></div>
+			<div class="days__item"><span class="days__item--number">21</span></div>
+			<div class="days__item"><span class="days__item--number">22</span></div>
+			<div class="days__item"><span class="days__item--number">23</span></div>
+			<div class="days__item"><span class="days__item--number">24</span></div>
+			<div class="days__item"><span class="days__item--number">25</span></div>
+			<div class="days__item"><span class="days__item--number">26</span></div>
+			<div class="days__item"><span class="days__item--number">27</span></div>
+			<div class="days__item"><span class="days__item--number">28</span></div>
+			<div class="days__item"><span class="days__item--number">29</span></div>
+			<div class="days__item"><span class="days__item--number">30</span></div>
+			<div class="days__item"><span class="days__item--number">31</span></div>
+		</div>
+		</div>
+
+		<div class="footer">
+			<span class="footer__text">2 events on January - <a href="#" class="footer__text--link">Remove All</a></span>
+		</div>
+	</div>
+</div>
+	
+</body>
+</html>
