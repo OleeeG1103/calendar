@@ -27,7 +27,7 @@
 }
 
 .calendar {
-    width: 595px;
+    width: 591px;
 }
 
 .month-nav {
@@ -68,11 +68,10 @@
 
 .weekdays {
    display: grid;
-   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;     
+   grid-template-columns: repeat(7, 1fr);     
 }
 
 .weekdays__item {
-    width: 85px;
     height: 20px;
     display: grid;
     justify-content: end;
@@ -83,8 +82,8 @@
 
 .days {
    display: grid;
-   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-   grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+   grid-template-columns: repeat(7, 1fr);
+   grid-template-rows: repeat(5, 1fr);
 }
 
 .days__item.days__item--off {
@@ -92,7 +91,6 @@
 }
 
 .days__item {
-    width: 85px;
     height: 85px;
     display: grid;
     justify-content: end;
@@ -100,6 +98,7 @@
     color: var(--black-secondary);
     padding: 4px 2px 0 0;
     border: 1px solid var(--grey-secondary);
+    margin: -0.5px;
 }
 
 .days__item:hover {
@@ -232,7 +231,7 @@
     justify-content: center;
 }    
 .calendar {
-    width: 100%;
+    width: 311px;
 }    
 
 .month-nav {
@@ -249,20 +248,15 @@
 }
 
 .weekdays {
-   grid-template-columns: 45px 45px 45px 45px 45px 45px 45px;     
-}
-
-.weekdays__item {
-    width: 45px;
+   grid-template-columns: repeat(7, 1fr);     
 }
 
 .days {
-   grid-template-columns: 45px 45px 45px 45px 45px 45px 45px;
-   grid-template-rows: 45px 45px 45px 45px 45px;
+   grid-template-columns: repeat(7, 1fr);
+   grid-template-rows: repeat(5, 1fr);
 }
 
 .days__item {
-    width: 45px;
     height: 45px;
 }
 
